@@ -1,0 +1,96 @@
+/* Assistant fonts - they will be downloaded by the privacy plugin during build */
+/* Source: @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap') */
+/* latin-ext */
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 200 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/assistant/v19/2sDcZGJYnIjSi6H75xkzZmW5O7w.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Assistant';
+font-style: normal;
+font-weight: 200 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/assistant/v19/2sDcZGJYnIjSi6H75xkzaGW5.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* END Assistant Font */
+
+:root {
+    --md-primary-fg-color:        #9e1219;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+
+    --md-accent-fg-color: #047;
+    --md-accent-fg-color--transparent: hsla(#047, 0.1);
+
+}
+
+h1, h2, h3, h4 {
+    font-family:Assistant,sans-serif;
+}
+
+/* Header modification to be similar to our homepage */
+
+.md-header {
+    background-color: white;
+    color: #333;
+    border-bottom: 5px solid #9e1219;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 50px;
+}
+
+.md-header__title {
+    min-height: 70px;
+}
+
+.md-header__ellipsis > .md-header__topic > span.md-ellipsis {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 60px;
+}
+
+.md-header__button.md-logo {
+	margin: auto .2rem auto .2rem;
+}
+
+/* Searchbox adjustments */
+
+@media screen and (min-width: 60em) {
+    .md-search__form {
+        background-color: white;
+        border: 1px solid #f0f0f0;
+    }
+    .md-search__form:hover {
+        background-color: #f0f0f0;
+    }
+    .md-search__input::placeholder {
+        color: #333;
+    }
+    .md-search__input + .md-search__icon {
+        color: var(--md-default-fg-color--lighter);
+    }
+}
+
+/* Footer */
+footer .dash-after::after {
+	content: "/";
+	padding: 0 5px;
+}
+
+.md-footer {
+    background-color: #333;
+    border-bottom: 6px solid #9e1219;
+}
+
+/* Content */
+
+.md-content {
+    text-align: justify;
+}

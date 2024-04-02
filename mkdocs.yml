@@ -1,0 +1,74 @@
+site_name: Constituency Portal Documentation
+repo_url: https://github.com/certat/tuency-docs
+repo_name: certat/tuency-docs
+edit_uri: edit/main/docs/
+# site_url: https://tuency.cert.at/docs/
+
+copyright: |
+  <p><b>CERT.at - Computer Emergency Response Team Austria</b></p>
+  <p class="footer__content">
+    <div>
+      <span class="dash-after">Tel.: +43&nbsp;1&nbsp;5056416&nbsp;78</span>
+      <span class="dash-after">Email: team@cert.at</span>
+      <span>Incident Reports: reports@cert.at</span>
+    </div>
+    <div class="footer__legal">
+      <a class="dash-after" href="https://cert.at/e" title="Home Page">Home Page</a>
+      <a class="dash-after" href="https://cert.at/en/about-us/imprint/" title="Imprint">Imprint</a>
+      <a class="dash-after" href="https://cert.at/en/about-us/contact/" title="Contact">Contact</a>
+      <a href="https://cert.at/en/about-us/privacy-policy/" title="Privacy Policy">Privacy Policy</a>
+    </div>
+  </p>
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - content.action.edit
+
+  palette:
+    primary: custom
+    accent: custom
+  font:
+    text: Exo 2
+
+  logo: https://tuency.cert.at/resources/logo.png
+  favicon: https://tuency.cert.at/favicon.ico
+
+plugins:
+  - privacy
+  - search
+
+extra_css:
+  - styles/customization.css
+extra_javascript:
+  - js/banner.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/certat
+      name: CERT.at on Github
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - toc:
+      permalink: true
+      title: On this page
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+watch:
+  - includes/abbreviations.md
