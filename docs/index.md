@@ -28,5 +28,13 @@ with our systems yet.
    Visit Constituency Portal for [__Austrian Energy CERT__ :octicons-link-external-16:](https://tuency.energy-cert.at)
 </div>
 
+## Feedback
 
+Constituency Portal is built using open-source software [Tuency](https://gitlab.com/intevation/tuency/tuency),
+and we develop it further, ensuring it matches the needs of our constituency. We're thrilled to hear
+your feedback! Use our public [contact channels](https://cert.at/en/about-us/contact/)
+or pass it through your direct contact with CERT.at.
 
+Tuency was originally partially founded by the CEF Framework.
+
+![CEF_Logo](assets/cef_logo.png)

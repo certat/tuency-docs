@@ -94,3 +94,23 @@ footer .dash-after::after {
 .md-content {
     text-align: justify;
 }
+
+/* Hide Github stats regardless of CSP
+ *
+ * We prevents calling Github on client side using
+ * Content Security Policy. Hiding elements keeps
+ * the preview deployments similar to the final one.
+ */
+
+.md-source__facts {
+    display: none;
+}
+
+/* Classic admonitions */
+/* https://squidfunk.github.io/mkdocs-material/reference/admonitions/#classic-admonitions */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
