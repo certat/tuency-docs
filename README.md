@@ -9,6 +9,8 @@ can also be useful for other deployments.
 Please note, this repository is not automatically deployed to our servers and acts as development
 version. If you're looking for current official documentation, please check https://tuency.cert.at/docs/
 
+The development-only deployment of docs from `main` branch is available on https://certat.github.io/tuency-docs/
+
 
 ## License note
 
