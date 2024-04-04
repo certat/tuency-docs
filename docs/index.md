@@ -9,7 +9,7 @@ via our public [GitHub repository](https://github.com/certat/constituency-docs).
 
 The Constituency Portal serves as a centralized, self-managed database for contact and network
 assets. It allows verified organizations to manage their contact information, which is vital for
-communicating during security incidents or notifications. This portal replaces the previous Portal.
+communicating during security incidents or notifications.
 
 ## Current Features
 
