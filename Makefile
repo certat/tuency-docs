@@ -9,4 +9,5 @@ serve:
 
 build:
 	mkdocs build
+	-rm docs.zip
 	cd site/ && zip -r ../docs.zip ./*

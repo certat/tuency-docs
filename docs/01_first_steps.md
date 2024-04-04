@@ -1,40 +1,41 @@
-# First steps
+# First Steps
 
 ## Registration
 
-You'll get an invitation email. Follow the link and set up your account, during this process you
-will have to set up your password and MFA app, as well as backup recovery codes. Immediately after
-finishing setup, you can log in to the Portal and access your organization.
+You will receive an invitation email. Follow the link to set up your account. During this process,
+you will be asked to create a password and set up a Multi-Factor Authentication app, along
+with backup recovery codes. After completing the setup, you can log in to the Portal and access
+your organization's information.
 
-Your password has to match following rules:
+Your password must meet the following criteria:
 
-1. Minimum length of 16 characters.
-2. At least one upper and lower character.
-3. At least one digit and special character.
+1. A minimum length of 16 characters.
+2. At least one uppercase and one lowercase letter.
+3. At least one digit and one special character.
 
-Later you can also set up physical keys as MFA method in the [account management](03_account.md#configuring-mfa-apps-and-devices).
+You can later add physical keys as an MFA method in the [account management section](03_account.md#configuring-mfa-apps-and-devices).
 
 !!! note
 
-    Invitation email is valid for 72 hours. After that time you have to ask CERT.at to issue
-    a new invitation.
+    The invitation email is valid for 72 hours. If it expires, you will need to request a new
+    invitation from CERT.at.
 
-## First look at Tuency
+## First Look at Tuency
 
 <figure markdown="span">![First look](assets/first_look/overview.png) _Start page of the Constituency Portal_</figure>
 
-When visiting Tuency first time, you will see a view as on the picture above. The central page is by
-default the first tab of Netobjects, usually Autonomous Systems. Different parts of the view have
-roles as following:
+Upon your first visit to Tuency, you'll see a dashboard similar to the image above. The central
+page defaults to the first tab of Netobjects, typically Autonomous Systems. Different elements
+of the dashboard serve various purposes:
 
-1. Tabs to manage different types of network assets.
-2. _My node_ let you see and manage users in your current organization, tenant or portal,
-   depending on your current role.
-3. _Organizations_ allows management of organizations belonging to your current role.
-4. _Contacts_ is where are all different contact information related to your organization.
-5. _Add colleague_ lets you add other coworkers to manage your organization.
-6. _Switch Node_ will be present if you have more than a one role (e.g. multiple organizations you
-   can manage), and let you switch the current context.
-7. Short note naming your privilege level in the current context.
-8. _Profile_ let you [manage your account](03_account.md), e.g. changing the password.
-9. _Claim Netobject_ opens a form to request adding a new network asset to the organization.
+1. Tabs for managing different types of network assets.
+2. _My Node_ allows you to view and manage users in your current organization, tenant, or portal,
+   depending on your role.
+3. _Organizations_ for managing organizations related to your role.
+4. _Contacts_ where all contact information related to your organization is located.
+5. _Add Colleague_ to invite coworkers to help manage your organization.
+6. _Switch Node_ appears if you have roles in more than one organization and allows switching
+   between contexts.
+7. A note indicating your privilege level in the current context.
+8. _Profile_ for [managing your account](03_account.md), including password changes.
+9. _Claim Netobject_ to request the addition of a new network asset to your organization.

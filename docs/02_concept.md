@@ -1,68 +1,67 @@
 # Base Concepts
 
-Constituency Portal uses a few concepts that may not always be clear at the first look.
+The Constituency Portal introduces several concepts that might not be immediately clear.
 
 ## Organization
 
-This is a base object representing a company or different type of an entity that can have network
-assets or contact data assigned to. Companies has to belong to one or more tenants, and can have
-sub-organizations to represent the structure.
+An organization represents a company or another type of entity that can own network assets or
+have contact data. Organizations must belong to one or more tenants and can include
+sub-organizations to reflect their internal structure.
 
-## Privilege levels
+## Privilege Levels
 
 ### orgadmin
 
-Organization Administrator (orgadmin) is the base privilege level in Tuency. If you were invited
-to manage data of an organization, you will get this privilege level. When using Tuency, an orgadmin
-is always assigned to one company in the given context. If are assigned to more companies, you will
-use _Switch Node_ to let Tuency now, which company you want to manage now.
+An Organization Administrator (orgadmin) is the primary role within Tuency. If invited to manage
+an organization's data, you will assume this role. As an orgadmin, you are associated with a specific
+company within the context of your role. If you're associated with multiple companies, you will use
+the _Switch Node_ feature to select which company you wish to manage at any given time.
 
-An orgadmin can in the corresponding organization:
+As an orgadmin, you can within your organization:
 
-1. Show, and request claims of netobjects.
-2. Show, edit and create new sub-organizations.
-3. Show and invite new administrators to their organization and sub-organizations.
-4. Manage which sub-organization other orgadmins belong to.
-5. Show, edit and delete contact information.
+1. View and request claims for network assets (netobjects).
+2. View, create, and edit sub-organizations.
+3. Invite new administrators to the organization and its sub-organizations.
+4. Manage the assignments of orgadmins to sub-organizations.
+5. View, edit, and delete contact information.
 
 ### tenantadmin
 
-Tenant administrator can do everything as orgadmins as well as accept netobjects claims, in a one
-assigned tenant.
+A Tenant Administrator has all the capabilities of an orgadmin but across a specific tenant. This
+includes accepting claims for netobjects within their assigned tenant.
 
 ### portaladmin
 
-Portal Administrator has the highest privileges and can do the sam as tenantadmin, but for all
-tenants in the Portal. In addition, portaladmin can edit tags available for Contacts and Organizations.
+A Portal Administrator possesses the highest level of privileges, equivalent to those of a
+tenantadmin but applicable to all tenants within the Portal. Additionally, a portaladmin can edit
+tags for Contacts and Organizations.
 
 ## Contacts
 
-Contacts store contact points information to use on case of different situations. Every
-contact can have multiple roles that dictates, which data can be stored, and which are required.
-For example, for _CISO_, we require at least phone number and email, and for _24/7_ (a contact point
-available around the clock), a dedicated 24/7 telephone number is required.
+Contacts contain information used in various situations, each assigned one or more roles dictating
+the required data. For instance, a _CISO_ role requires at least a phone number and an email address,
+while a _24/7_ contact requires a dedicated round-the-clock telephone number.
 
-Contacts are connected with an organization only, and you cannot share contacts between organizations.
-As an orgadmin, you can put multiple contacts with multiple roles in your organization. If we have to
-contact your organization, we will use the most applicable and available contact based on the roles.
+Contacts are tied to a specific organization, and sharing across organizations is not possible.
+As an orgadmin, you can assign multiple contacts with various roles within your organization, ensuring
+the most relevant and accessible contact is used when necessary.
 
 !!! note
-    Your organization doesn't have to have _all_ roles. Use only those, which you have and want
-    to share with us.
-
-<!-- TODO: we need to describe roles -->
+    Your organization need not cover all roles. Only include those relevant and desired for
+    communication with us.
 
 ## Nodes
 
-"Node" represents connection between your privilege level and organization(s). For example, if
-you were an orgadmin for multiple organizations, you can act only as an administrator of a one
-at the time. Switching nodes allows you to change which one you want to manage now.
+A "Node" signifies the linkage between your role and one or multiple organizations. For example,
+if you are an orgadmin for several organizations, you can manage only one at any given time.
+Switching nodes allows you to select which organization you wish to manage.
 
 ## Netobjects
 
-Different networking assets (AS, IP ranges, domains) administrated by the organization.
+This term refers to different network assets (such as Autonomous Systems (AS), IP ranges, domains)
+administered by an organization.
 
 ## Tenant
 
-Also known as a constituency. In our case, it represents different CERTs (e.g. CERT.at or AEC)
-responsible for contact with organizations belonging to them.
+Also known as a constituency, a tenant represents different CERTs (e.g., CERT.at, AEC) responsible
+for communications with their respective organizations.

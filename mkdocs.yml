@@ -1,4 +1,5 @@
 site_name: Constituency Portal Documentation
+site_description: Documentation for CERT.at Constituency Portal
 repo_url: https://github.com/certat/tuency-docs
 repo_name: certat/tuency-docs
 edit_uri: edit/main/docs/
@@ -13,7 +14,7 @@ copyright: |
       <span>Incident Reports: reports@cert.at</span>
     </div>
     <div class="footer__legal">
-      <a class="dash-after" href="https://cert.at/e" title="Home Page">Home Page</a>
+      <a class="dash-after" href="https://cert.at/" title="Home Page">Home Page</a>
       <a class="dash-after" href="https://cert.at/en/about-us/imprint/" title="Imprint">Imprint</a>
       <a class="dash-after" href="https://cert.at/en/about-us/contact/" title="Contact">Contact</a>
       <a href="https://cert.at/en/about-us/privacy-policy/" title="Privacy Policy">Privacy Policy</a>
@@ -30,6 +31,7 @@ theme:
     - search.highlight
     - navigation.footer
     - content.action.edit
+    - content.tooltips
 
   palette:
     primary: custom

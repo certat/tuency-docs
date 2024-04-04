@@ -1,53 +1,51 @@
 # Account Management
 
-As in every typical system, you can manage your account. To go to the account management,
-you should use the _Profile_ link from menu in the upper-right corner.
+In the Constituency Portal, you can manage your account details. To access account management,
+click on the _Profile_ link in the menu located in the upper-right corner.
 
 <figure markdown="span">![Profile link](assets/account_mgmt/user_menu.png)
-_Use_ Profile _to open the account management_</figure>
+_Click on_ Profile _to access account management._</figure>
 
-After clicking on _Profile_, you will be redirected to the account management page. We use
-[Keycloak](https://www.keycloak.org/), a mature IAM tool, to keep user accounts and secure access
-to Constituency Portal. All account management and signing in actions happen on the
-`login.cert.at` domain.
+Selecting _Profile_ redirects you to the account management page. We utilize
+[Keycloak](https://www.keycloak.org/), a robust Identity and Access Management (IAM) tool, for
+managing user accounts and securing access. All account management and sign-in activities occur
+on the `login.cert.at` domain.
 
 <figure markdown="span">![Account management](assets/account_mgmt/account_mgmt.png)
-_Main account management page_</figure>
+_View of the main account management page._</figure>
 
-In available sections, you can do the following things:
+The account management section allows you to:
 
-1. _Personal info_ let you correct your email address and name.
-2. _Signing in_ manages the authentication, including password and MFA settings.
-3. _Device activity_ presents your active sessions and let you log out from other devices.
-4. _Applications_ list the application you can access, e.g. Constituency Portal.
+1. Update your email address and name in _Personal info_.
+2. Adjust authentication settings, including passwords and MFA, under _Signing in_.
+3. View active sessions and sign out from other devices via _Device activity_.
+4. See a list of accessible applications, like the Constituency Portal, in _Applications_.
 
-Use the link in the upper-right corner to come back to the Portal.
+To return to the Portal, use the link in the upper-right corner.
 
 !!! warning
-    All changes in user management and Constituency Portal itself are strictly logged. If you
-    observe a suspicious activity on your account, please immediately change your credentials
-    and contact CERT.at for investigation.
+    User management actions and activities within the Constituency Portal are thoroughly logged.
+    Should you notice any suspicious activity on your account, change your credentials immediately
+    and notify CERT.at for further investigation.
 
 !!! note
-    The domain `login.cert.at` isn't directly accessible. Use always the link from Constituency
-    Portal to access your account management.
+    The domain `login.cert.at` is not directly accessible. Always use the link from the Constituency
+    Portal to navigate to your account management settings.
 
-## Configuring MFA apps and devices
+## Configuring MFA Apps and Devices
 
-During account setup, you have to configure an application to generate one-time codes. Later in the
-account console under _Signing in_ you can also configure a physical device to act as the second
-factor during authentication or set up more authenticator applications, if you need to. For physical
-security keys, we support most WebAuthn-compatible devices.
+During account setup, you'll configure an app for generating one-time codes. Additionally, within
+the account console under _Signing in_, you can add physical security devices for authentication
+or set up additional authenticator apps. We support most WebAuthn-compatible devices for physical
+security keys.
 
 !!! tip
-    Unfortunately, you cannot directly change the priority of MFA methods (authenticator app or
-    physical device) used during signing in. The oldest one is always the default one. That means,
-    when you add a physical key, you have to click on _Try other method_ on the login page to use it.
-    However, you can use a trick to change the priority: after adding a physical key, just remove
-    any configured authenticator app and them again. The physical key will now be the default method
-    Note: you DO NOT have to remove recovery codes.
+    Changing the default MFA method (app or physical device) directly is not possible. The system
+    defaults to the first method added. To use a physical key as the default, first add the key,
+    then temporarily remove and re-add any authenticator apps. This makes the physical key the
+    primary method. Note: removing recovery codes is not necessary.
 
 !!! note
-    Using MFA is mandatory in Constituency Portal, you have to keep at least one MFA option enabled.
-    We recommend keeping your recovery codes in a secure place in case of loosing your device or
-    application.
+    MFA is a mandatory security measure in the Constituency Portal. Ensure at least one MFA method
+    is active. Safely store your recovery codes to avoid being locked out of your account if you
+    lose access to your device or app.

@@ -1,40 +1,41 @@
-# Welcome to Constituency Portal
+# Welcome to the Constituency Portal
 
-This documentation aims to guide users over the Constituency Portal for CERT.at, AEC and GovCERT.
-We do our bests to refer to the current state of the Portal, but we cannot guarantee that the
-documentation covers all aspects. We welcome contributions through our public
- [Github repository](https://github.com/certat/tuency-docs).
+This documentation is designed to help users navigate the Constituency Portal for CERT.at, AEC,
+and GovCERT. While we strive to keep this documentation up-to-date, please be aware that it may
+not cover all features and functionalities. Your contributions are welcome
+via our public [GitHub repository](https://github.com/certat/constituency-docs).
 
-## Role of the Portal
+## Purpose of the Portal
 
-Constituency Portal is designed primarily as the central, self-governed contact and network assets
-database. We welcome verified organizations to manage their contact data we can use in case of
-security incidents or notifications. New Constituency Portal replaces the legacy Portal
-provided in the past.
+The Constituency Portal serves as a centralized, self-managed database for contact and network
+assets. It allows verified organizations to manage their contact information, which is vital for
+communicating during security incidents or notifications. This portal replaces the previous Portal.
 
-## Supported features
+## Current Features
 
-We're slowly extending features available in the Constituency Portal. Currently, we encourage
-using only the **Contacts** tab. Networking assets and notification rules are not integrated
-with our systems yet.
+The Constituency Portal is undergoing continuous improvement, and we are gradually expanding its
+features. At present, we recommend using the **Contacts** tab, as integration for networking assets
+and notification rules with our systems is still in progress.
 
-## Visit the Portal
+## Accessing the Portal
+
+You can access the Constituency Portal for different sectors through the following links:
 
 <div class="grid cards" markdown>
 
--  <figure markdown="span">![Tuency CERT.at](https://tuency.cert.at/resources/logo.png){ style="height:5rem"}</figure>
-   Visit Constituency Portal for [__National CERT__ :octicons-link-external-16:](https://tuency.cert.at)
--  <figure markdown="span">![Tuency AEC](https://tuency.energy-cert.at/resources/logo.png){ style="height:5rem"}</figure>
-   Visit Constituency Portal for [__Austrian Energy CERT__ :octicons-link-external-16:](https://tuency.energy-cert.at)
+-  <figure markdown="span">![CERT.at Logo](https://tuency.cert.at/resources/logo.png){ style="height:5rem"}</figure>
+   Visit the [__National CERT__ Constituency Portal :octicons-link-external-16:](https://tuency.cert.at)
+-  <figure markdown="span">![Tuency AEC](https://tuency-stg.intern.energy-cert.at/resources/AEC-logo-4c-standard.png){ style="height:5rem"}</figure>
+   Visit the [__Austrian Energy CERT__ Constituency Portal :octicons-link-external-16:](https://tuency.energy-cert.at)
 </div>
 
-## Feedback
+## Feedback and Contributions
 
-Constituency Portal is built using open-source software [Tuency](https://gitlab.com/intevation/tuency/tuency),
-and we develop it further, ensuring it matches the needs of our constituency. We're thrilled to hear
-your feedback! Use our public [contact channels](https://cert.at/en/about-us/contact/)
-or pass it through your direct contact with CERT.at.
+The Constituency Portal is developed as an open-source project using the [Tuency](https://gitlab.com/intevation/tuency/tuency)
+software. We are keen to adapt the portal to better meet the needs of our users and welcome your
+feedback. Please use our public [contact channels](https://cert.at/en/about-us/contact/) or get in
+touch directly with CERT.at.
 
-Tuency was originally partially founded by the CEF Framework.
+The development of Tuency was initially supported by the CEF Framework.
 
-![CEF_Logo](assets/cef_logo.png)
+![CEF Logo](assets/cef_logo.png)
