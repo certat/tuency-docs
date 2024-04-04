@@ -12,3 +12,4 @@
 *[portaladmin]: Portal Administrator - Holds the highest privilege level in Tuency
 *[Keycloak]: An open-source platform for identity and access management, used for managing user accounts in the Constituency Portal
 *[IAM]: Identity and Access Management
+*[AS]: Autonomous System
