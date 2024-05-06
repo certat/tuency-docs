@@ -18,3 +18,14 @@ portal will remain accessible until all integrations are moved to the new system
 request that you __do not__ make any edits to data in the legacy portal unless specifically
 instructed by us. Data synchronization between the two systems will not occur after the initial
 migration.
+
+## Why do some contacts look like duplicates?
+
+The old portal and Tuency use different approaches to store and validate data. Because of this,
+it wasn't always possible to migrate without losing any information and without manually checking
+each contact. If a user had different contact information for different roles in the old portal
+it was migrated as different contact records. Sometimes this could be due to typos, different phone
+phone numbers, or different email addresses. If you believe that some contacts shouldn't be
+duplicated, we recommend saving the current data in one and removing the second.
+
+We're also looking into improvements to the contact form, such as allowing more than one email address.
