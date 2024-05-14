@@ -45,6 +45,8 @@ theme:
 plugins:
   - privacy
   - search
+  - glightbox
+
 
 extra_css:
   - styles/customization.css
