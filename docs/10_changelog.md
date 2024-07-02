@@ -2,7 +2,7 @@
 
 This is a short overview of what we changed in our Portal to help you use new possibilities.
 
-## 2024-07-02
+## 2024-07-03
 
   * Implemented reminder for potential expired contacts - see [documentation](Managing%20organization/03_reminders.md).
   * All outgoing emails are now signed with our S/MIME certificate.
