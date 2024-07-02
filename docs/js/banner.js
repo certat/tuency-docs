@@ -10,7 +10,7 @@ document$.subscribe(function() {
         <div class="md-banner__inner md-grid md-typeset">
             You're seeing an unofficial or development version of the documentation.
             The content may not refer the current state nor be provided by CERT.at. <br>
-            Please visit <a href="https://cert.at">cert.at</a> to read the official documentation.
+            Please visit <a href="https://tuency.cert.at/docs/">cert.at</a> to read the official documentation.
         </div>
     </aside>`;
 

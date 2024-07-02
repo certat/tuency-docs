@@ -3,7 +3,7 @@
 This documentation is designed to help users navigate the Constituency Portal for CERT.at, AEC,
 and GovCERT. While we strive to keep this documentation up-to-date, please be aware that it may
 not cover all features and functionalities. Your contributions are welcome
-via our public [GitHub repository](https://github.com/certat/constituency-docs).
+via our public [GitHub repository](https://github.com/certat/tuency-docs).
 
 ## Purpose of the Portal
 

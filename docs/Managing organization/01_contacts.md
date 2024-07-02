@@ -13,8 +13,12 @@ overview of the available data. Additionally, you can find:
 
 1. Fields to search and filter contacts.
 2. Navigation buttons to browse through pages of results.
-3. A button to export contacts.
-4. A button to create a new contact.
+3. A toggle to show [expired contacts](03_reminders.md) only.
+4. A button to export contacts.
+5. A button to create a new contact.
+6. Opening read-only view of the contact.
+7. Opening edit form for the contact.
+8. Deleting the contact.
 
 ## Understanding Contact Cards
 
