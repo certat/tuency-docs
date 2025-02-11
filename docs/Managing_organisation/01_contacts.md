@@ -13,7 +13,7 @@ overview of the available data. Additionally, you can find:
 
 1. Fields to search and filter contacts.
 2. Navigation buttons to browse through pages of results.
-3. A toggle to show [expired contacts](03_reminders.md) only.
+3. A toggle to show [expired contacts](04_reminders.md) only.
 4. A button to export contacts.
 5. A button to create a new contact.
 6. Opening read-only view of the contact.
@@ -38,7 +38,7 @@ Hover over an icon to see the field name for data items like multiple phone numb
 <figure markdown="span">![Contact card](assets/tooltip.png) _Hover an icon to see the field name_</figure>
 
 !!! note
-    Tags such as `ATC Finance` are assigned by tenant or portal admins only. Organization admins may
+    Tags such as `ATC Finance` are assigned by tenant or portal admins only. organisation admins may
     only view some tags.
 
 ## Adding a New Contact
@@ -48,8 +48,8 @@ Hover over an icon to see the field name for data items like multiple phone numb
    vary by tenant.
 
     !!! note
-        If you are managing multiple organizations in the current node, you must select one.
-        Sharing contacts between organizations is not possible.
+        If you are managing multiple organisations in the current node, you must select one.
+        Sharing contacts between organisations is not possible.
 
 3. The form adjusts based on the roles selected. Each role determines required fields (marked in red)
    and optional fields.
@@ -82,3 +82,17 @@ Hover over an icon to see the field name for data items like multiple phone numb
    down to see it.
 
 <figure markdown="span">![Contact form](assets/contact_filled.png) _Example minimal abuse contact_</figure>
+
+## Understanding roles
+
+Roles that can be set for a contact depend on your constituency, and are defined based
+on functional or contractual requirements. To help you choose right roles, you will see
+a short description when hovering a role name in the contact editing popup.
+
+Note that some roles may trigger actions from our side, like subscribing to selected
+mailing lists or creating an account in a MISP service. This will be mentioned in the role
+description.
+
+<figure markdown="span">
+   ![Role description](assets/role_description.png) _Example role description contact_
+</figure>

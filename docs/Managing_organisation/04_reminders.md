@@ -1,7 +1,7 @@
 # Keeping Contacts Up-To-Date
 
 In case of an incident, it's crucial to have correct and up-to-date contact information. To ensure
-this, the Constituency Portal will send an email notification to orgadmins if their organizations
+this, the Constituency Portal will send an email notification to orgadmins if their organisations
 have contacts that haven't been updated for a long time.
 
 !!! info "Notification Frequency"
@@ -16,7 +16,7 @@ have contacts that haven't been updated for a long time.
 
 ## Finding Expired Contacts
 
-The reminder email will inform you about the affected organization and provide a short overview of
+The reminder email will inform you about the affected organisation and provide a short overview of
 the roles that the expired contacts have. To find exactly which contacts need an update, open the
 Contacts tab in the Portal.
 

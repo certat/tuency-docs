@@ -8,7 +8,7 @@ via our public [GitHub repository](https://github.com/certat/tuency-docs).
 ## Purpose of the Portal
 
 The Constituency Portal serves as a centralized, self-managed database for contact and network
-assets. It allows verified organizations to manage their contact information, which is vital for
+assets. It allows verified organisations to manage their contact information, which is vital for
 communicating during security incidents or notifications.
 
 ## Current Features
