@@ -39,7 +39,7 @@ theme:
   font:
     text: Exo 2
 
-  logo: https://tuency.cert.at/resources/logo.png
+  logo: logo/cert-at.png
   favicon: https://tuency.cert.at/favicon.ico
 
 plugins:

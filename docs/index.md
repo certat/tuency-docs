@@ -23,7 +23,7 @@ You can access the Constituency Portal for different sectors through the followi
 
 <div class="grid cards" markdown>
 
--  <figure markdown="span">![CERT.at Logo](https://tuency.cert.at/resources/logo.png){ style="height:5rem"}</figure>
+-  <figure markdown="span">![CERT.at Logo](./logo/cert-at.png){ style="height:5rem"}</figure>
    Visit the [__National CERT__ Constituency Portal :octicons-link-external-16:](https://tuency.cert.at)
 -  <figure markdown="span">![Tuency AEC](https://tuency.energy-cert.at/resources/AEC-logo-4c-standard.png){ style="height:5rem"}</figure>
    Visit the [__Austrian Energy CERT__ Constituency Portal :octicons-link-external-16:](https://tuency.energy-cert.at)
