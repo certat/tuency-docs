@@ -2,10 +2,11 @@
 
 This is a short overview of what we changed in our Portal to help you use new possibilities.
 
-## 2025-02
+## 2025-02-18
 
   * Allow limiting [email domains allowed](Managing_organisation/03_restricted_domains.md) for contacts.
   * Roles description on hover when [editing a contact](Managing_organisation/01_contacts.md#understanding-roles).
+  * Possibility to [move contacts](Managing_organisation/01_contacts.md#moving-contacts) between organisations.
   * Fixes and improvements.
 
 ## 2024-07-03

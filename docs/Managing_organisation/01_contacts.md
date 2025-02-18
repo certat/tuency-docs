@@ -83,6 +83,18 @@ Hover over an icon to see the field name for data items like multiple phone numb
 
 <figure markdown="span">![Contact form](assets/contact_filled.png) _Example minimal abuse contact_</figure>
 
+## Moving contacts
+
+If you are an orgadmin of an organisation with multiple sub-organisations, you can move existing
+contacts between them. In this case you will find the field with available organisations on the top
+of the contact editing popup. After the change, don't forget to save changes using _Update_ button
+at the bottom of the form.
+
+<figure markdown="span">
+   ![Change organisation field](assets/moving_organisation.png) _The field to change the organisation_
+</figure>
+
+
 ## Understanding roles
 
 Roles that can be set for a contact depend on your constituency, and are defined based
