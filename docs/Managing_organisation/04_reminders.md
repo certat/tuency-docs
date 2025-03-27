@@ -10,7 +10,7 @@ have contacts that haven't been updated for a long time.
     information accuracy and the number of emails, we notify you:
 
     * Only **once a week**, on Monday morning.
-    * About contacts that weren't updated in the last **90 days**.
+    * About contacts that weren't updated in the last **180 days**.
     * If you don't update a contact after notification, we will remind you about this specific contact
       first in **30 days**.
 
