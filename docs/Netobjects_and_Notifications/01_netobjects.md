@@ -57,3 +57,15 @@ _An approved claim shows related IP ranges. Note that they may be on more than a
     _Autonomous System_ page.
 
     Both issues will be fixed in upcoming releases to make usage more intuitive.
+
+## Claiming a subobject
+
+Sometimes, especially to create notification rules, you may want to define a children object
+to an existing one - e.g. an IP address or a subrange.
+
+We strongly advice you to first declare the broader object (e.g. a RIPE Handle) and wait for the
+approval. If your organisation or its parent organisation has an approved netobject covering your
+claim, it will be automatically approved.
+
+<figure markdown="span">![Autoapproved claim](assets/autoapproved.png)
+_Example: an IP claim was automatically approved because the organisation has an approved RIPE Handle or AS covering it_</figure>

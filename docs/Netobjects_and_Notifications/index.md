@@ -25,7 +25,9 @@ notification addresses.
     in the areas of netobject and notification rules is undergoing works to improve the
     usage experience.
 
-!!! info
+    In addition, we prioritise support for IPv4.
+
+!!! tip
     To learn more about our notifications, you can visit:
 
     * [our official website](https://www.cert.at/de/services/daten-feeds/uebersicht/)

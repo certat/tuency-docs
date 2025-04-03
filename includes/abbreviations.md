@@ -15,3 +15,6 @@
 *[AS]: Autonomous System
 *[tenant]: CERT.at, Austrian Energy CERT or GovCERT
 *[constituency]: CERT.at, Austrian Energy CERT or GovCERT
+*[ISP]: Internet Service Provider
+*[RIPE]: Regional Internet Registry for Europe, Middle East and Central Asia - an organisation registering IP addresses
+*[oneshot]: Manually created notification prepared by CERT in urgent cases, sent outside of the typical schedule.
