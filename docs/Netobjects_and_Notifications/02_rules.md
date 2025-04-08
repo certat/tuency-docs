@@ -106,6 +106,9 @@ You don't have to fill all fields, the empty fields will match any value. In add
 field is provided for your convenience - you can use it to note the reason of the rule to be able
 to understand it later.
 
+<figure markdown="span">![Comment](assets/comment.png)
+_You can see the comment by hovering the icon on the rule list_</figure>
+
 ### Classification
 
 We follow the taxonomy from [Reference Security Incident Taxonomy Working Group](https://github.com/enisaeu/Reference-Security-Incident-Taxonomy-Task-Force)
@@ -148,15 +151,15 @@ In this section, you can manage who should be notified and how often should we r
 (in case the given problem still exists). As destination, you can choose one or more from:
 
 * _Suppressed_ - we will stop informing you about matching events,
-* _Abuse-C_ - this will keep informing the abuse contact from RIPE database,
+* _RIPE Abuse Contact_ - this will keep informing the abuse contact from RIPE database,
 * any contact with _Abuse contact_ role defined for your organisation - see [managing contacts](../Managing_organisation/01_contacts.md).
 
 <figure markdown="span">![Available contacts](assets/contacts.png)
 _Available destinations_</figure>
 
 If you suppress notifications, we will ignore any defined destinations and won't sent it to anyone.
-Note that if you don't select _Abuse-C_, we will not use the RIPE abuse contact anymore for matching
-events.
+Note that if you don't select _RIPE Abuse Contact_, we will not use the RIPE abuse contact anymore
+for matching events.
 
 !!! tip
     We recommend managing filters on your own. If you need a more complex filtering than available

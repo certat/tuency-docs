@@ -6,7 +6,7 @@ license: Licensed under CC0 1.0 Universal (CC0 1.0)
 # Events Taxonomy
 
 We use taxonomy from the TF-CSIRT Reference Security Incident Taxonomy Working Group
-to classify processed events. The most actual version you can find in the [RSIT WG Github repository](<(https://github.com/enisaeu/Reference-Security-Incident-Taxonomy-Task-Force)>).
+to classify processed events. The most actual version you can find in the [RSIT WG Github repository](https://github.com/enisaeu/Reference-Security-Incident-Taxonomy-Task-Force).
 
 !!! tip
     While it isn't always intuitive, services that most probably shouldn't be directly available
