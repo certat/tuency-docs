@@ -2,7 +2,7 @@
 
 This is a short overview of what we changed in our Portal to help you use new possibilities.
 
-## 2025-04-XX
+## 2025-04-08
 
   * Managing [netobjects](Netobjects_and_Notifications/01_netobjects.md) and [notification rules](Netobjects_and_Notifications/02_rules.md).
 
