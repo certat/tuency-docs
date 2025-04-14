@@ -14,8 +14,8 @@ communicating during security incidents or notifications.
 ## Current Features
 
 The Constituency Portal is undergoing continuous improvement, and we are gradually expanding its
-features. At present, we recommend using the **Contacts** tab, as integration for networking assets
-and notification rules with our systems is still in progress.
+features. At present, the contacts management is considered stable and the notifications management
+for IPv4 assets is experimentally active.
 
 ## Accessing the Portal
 
